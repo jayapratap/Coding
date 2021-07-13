@@ -20,7 +20,6 @@ public class LinkedList {
 
     private static LinkedList insertNodeAtTail(LinkedList list, int i) {
         Node new_list = new Node(i);
-        new_list.next = null;
 
         if(list.head == null) {
             list.head = new_list;
