@@ -26,7 +26,7 @@ public class sum {
     private static void printFibonacciWithIteration(int n) {
         int[] n1 = new int[n];
         if(n > 0 ) {
-            for(int i = 0; i <= n; i++) {
+            for(int i = 0; i < n; i++) {
                 if(i <= 1) 
                     n1[i] = i;
                 else 
